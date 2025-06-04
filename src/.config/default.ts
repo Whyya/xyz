@@ -80,7 +80,7 @@ export const defaultConfig: ThemeConfig = {
   },
   analytics: {
     googleAnalyticsId: '',
-    umamiAnalyticsId: '',
+    umamiAnalyticsId: '3124b923-0ce0-4537-8053-a0603c45649d',
   },
   latex: {
     katex: false,
