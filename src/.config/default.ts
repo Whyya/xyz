@@ -9,7 +9,7 @@ export const defaultConfig: ThemeConfig = {
     subtitle: '用记录平复思考的峰谷',
     author: '小陶',
     description: '记录小陶每周的产出和思考，分享一些有趣的内容。',
-    website: 'https://astro-theme-typography.vercel.app/',
+    website: 'https://whyya.xyz',
     pageSize: 5,
     socialLinks: [
       {
