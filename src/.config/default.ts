@@ -5,28 +5,24 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: '小陶的周记',
+    subtitle: '用记录平复思考的峰谷',
+    author: '小陶',
+    description: '记录小陶每周的产出和思考，分享一些有趣的内容。',
+    website: 'https://whyya.xyz',
     pageSize: 5,
     socialLinks: [
-      {
-        name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
       {
         name: 'rss',
         href: '/atom.xml',
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://x.com/Whyya',
       },
       {
         name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://mastodon.social/@whyya',
       },
     ],
     navLinks: [
@@ -72,8 +68,11 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
-    meta: [],
+    twitter: '@Whyya',
+    meta: [
+      { name: 'author', content: '小陶' },
+      { name: 'robots', content: 'index, follow' },
+    ],
     link: [],
   },
   rss: {
@@ -83,8 +82,8 @@ export const defaultConfig: ThemeConfig = {
     // disqus: { shortname: "typography-astro" },
   },
   analytics: {
-    googleAnalyticsId: '',
-    umamiAnalyticsId: '',
+    googleAnalyticsId: 'G-MWTFJF8GE4',
+    umamiAnalyticsId: '3124b923-0ce0-4537-8053-a0603c45649d',
   },
   latex: {
     katex: false,
